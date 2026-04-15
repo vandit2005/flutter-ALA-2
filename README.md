@@ -1,6 +1,28 @@
 # vandit2
 
-A new Flutter project.
+# Flutter REST API App
+
+## 📌 Overview
+This app fetches data from a public REST API and displays it in a ListView.
+
+## 🔗 API Used
+https://jsonplaceholder.typicode.com/posts
+
+## ⚙️ Features
+- Fetch data from API
+- Parse JSON data
+- Display posts in ListView
+- Loading indicator and error handling
+
+## 📱 Output
+- App shows a loading spinner at start
+- Then displays a list of posts (title + description)
+- Each item is shown in a card format
+
+## ▶️ Run Project
+```bash
+flutter pub get
+flutter run
 
 ## Getting Started
 
